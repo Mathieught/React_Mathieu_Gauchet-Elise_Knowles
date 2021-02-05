@@ -1,0 +1,32 @@
+{
+    "questions": [
+        {
+            "question":"capitale du Japon ?",
+            "answersOptions": [
+                { "answer" : "Paris", "isCorrect" : "false"},
+                { "answer" : "Tokyo", "isCorrect" : "true"},
+                { "answer" : "Londres", "isCorrect" : "false"},
+                { "answer" : "New York", "isCorrect" : "false"}
+            ]
+        },
+        {
+            "question":"capitale du France ?",
+            "answersOptions": [
+                { "answer" : "Paris", "isCorrect" : "true"},
+                { "answer" : "Tokyo", "isCorrect" : "false"},
+                { "answer" : "Londres", "isCorrect" : "false"},
+                { "answer" : "NY", "isCorrect" : "false"}
+            ]
+        },
+        {
+            "question":"capitale du UK ?",
+            "answersOptions": [
+                { "answer" : "Paris", "isCorrect" : "false"},
+                { "answer" : "Tokyo", "isCorrect" : "false"},
+                { "answer" : "Londres", "isCorrect" : "true"},
+                { "answer" : "NY", "isCorrect" : "false"}
+            ]
+        }
+    ]
+    
+}
