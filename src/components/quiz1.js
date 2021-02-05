@@ -1,5 +1,5 @@
 // import AnswersOption from '../components/Answers'
-import data from '../data/quiz1.json'
+// import data from '../data/quiz1.json'
 import NextQuestion from '../hooks/NextQuestion'
 // import { useState } from 'react'
 // import currentQuestion from '../hooks/NextQuestion'
@@ -11,24 +11,10 @@ function Quiz1(){
   return(
     <div>
       <h1>quiz1</h1>
-      
-        <div className="score-count"> Score :  </div>
-      
-        <>
 
-        <div className="question-section">
-
-          <div className="question-count">
-            <span>Question 1 / {data.questions.length} </span>
-          </div>
-
-          <div className="question-content">
+          <div className="question-section">
             <NextQuestion/>
-            {/* Questions : {data.questions[0].question} */}
           </div>
-        </div>
-
-        </>
 
     </div>
   )

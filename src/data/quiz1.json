@@ -3,29 +3,32 @@
         {
             "question":"capitale du Japon ?",
             "answersOptions": [
-                { "answer" : "Paris", "isCorrect" : "false"},
-                { "answer" : "Tokyo", "isCorrect" : "true"},
-                { "answer" : "Londres", "isCorrect" : "false"},
-                { "answer" : "New York", "isCorrect" : "false"}
-            ]
+                { "answer" : "Paris" },
+                { "answer" : "Tokyo"},
+                { "answer" : "Londres"},
+                { "answer" : "New York"}
+            ],
+            "isCorrect": "Tokyo"
         },
         {
             "question":"capitale du France ?",
             "answersOptions": [
-                { "answer" : "Paris", "isCorrect" : "true"},
-                { "answer" : "Tokyo", "isCorrect" : "false"},
-                { "answer" : "Londres", "isCorrect" : "false"},
-                { "answer" : "NY", "isCorrect" : "false"}
-            ]
+                { "answer" : "Paris" },
+                { "answer" : "Tokyo"},
+                { "answer" : "Londres"},
+                { "answer" : "NY"}
+            ],
+            "isCorrect": "Paris"
         },
         {
             "question":"capitale du UK ?",
             "answersOptions": [
-                { "answer" : "Paris", "isCorrect" : "false"},
-                { "answer" : "Tokyo", "isCorrect" : "false"},
-                { "answer" : "Londres", "isCorrect" : "true"},
-                { "answer" : "NY", "isCorrect" : "false"}
-            ]
+                { "answer" : "Paris" },
+                { "answer" : "Tokyo"},
+                { "answer" : "Londres"},
+                { "answer" : "New Y"}
+            ],
+            "isCorrect": "Londres"
         }
     ]
     
