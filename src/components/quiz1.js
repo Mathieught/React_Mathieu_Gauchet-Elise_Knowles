@@ -1,6 +1,5 @@
 // import AnswersOption from '../components/Answers'
 import data from '../data/quiz1.json'
-import AnswersOptions from './Answers'
 import NextQuestion from '../hooks/NextQuestion'
 // import { useState } from 'react'
 // import currentQuestion from '../hooks/NextQuestion'
@@ -27,17 +26,9 @@ function Quiz1(){
             <NextQuestion/>
             {/* Questions : {data.questions[0].question} */}
           </div>
-
-        </div>
-
-        <div className="answers-section">
-          <AnswersOptions/>
         </div>
 
         </>
-      
-
-      
 
     </div>
   )

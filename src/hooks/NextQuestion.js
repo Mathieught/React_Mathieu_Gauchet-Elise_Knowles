@@ -16,10 +16,22 @@ function NextQuestion() {
         }
     }
 
+    const AnswersOptions = () => {
+        return ( 
+            <div> 
+                {data.questions[currentQuestion].answersOptions.map((answersOptions) => 
+                    <button onClick={() => setCurrentQuestion(currentQuestion + 1)} > {answersOptions.answer} </button>
+                )} 
+            </div>
+            )
+    }
+
     return(
         <div>
             <p> Question : { data.questions[currentQuestion].question} </p>
-            <button onClick={() => setCurrentQuestion(currentQuestion + 1)}> + </button>
+            <div className="answers-section">
+                <AnswersOptions/>
+            </div>
         </div>
     );
 
