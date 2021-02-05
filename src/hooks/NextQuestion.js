@@ -4,23 +4,20 @@ import data from '../data/quiz1.json'
 function NextQuestion() {
 
     const [ currentQuestion, setCurrentQuestion ] = useState(0);
-
     const [ SeeResult, setSeeResult ] = useState(false);
+    const [ Score, setScore ] = useState(0);
 
     // arret a la fin du quiz 
-    const handleQuestion = () => {
+    const handleQuestion = (e) => {
 
-        // const Ok = data.questions[currentQuestion].answersOptions.map((answersOptions) => answersOptions.isCorrect)
-        const Ok = data.questions[currentQuestion].isCorrect
-        console.log(Ok)
+        const answerChoice = e.target.value
+        const isCorrect = data.questions[currentQuestion].isCorrect
 
-        const Test = data.questions[currentQuestion].answersOptions.map((answersOptions) => answersOptions.answer)
-        console.log(Test)
-
-        if( Ok === Test ){
+        if( isCorrect === answerChoice ){
             console.log("Bonne réponse")
+            setScore(Score + 1)
         } else {
-            console.log("nop")
+            console.log("Mauvaise réponse")
         }
 
         const next = currentQuestion + 1;
@@ -33,19 +30,10 @@ function NextQuestion() {
     }
 
     const AnswersOptions = () => {
-
-        const [ value, setValue] = useState();
-        const selectValue = selectedValue => {
-            setValue(selectedValue)
-            console.log(value)
-        }
-
         return ( 
             <div> 
                 {data.questions[currentQuestion].answersOptions.map((answersOptions) => 
-                    // <button onClick={handleNextQuestion} > {answersOptions.answer} </button>
-                    <button onClick={() => handleQuestion()} value={answersOptions.answer} > {answersOptions.answer} </button>
-                    // <button onClick={() => handleNextQuestion(currentQuestion + 1)} > {answersOptions.answer} </button>
+                    <button onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
                 )}
             </div>
             )
@@ -54,7 +42,7 @@ function NextQuestion() {
     return(
         <div>
             { SeeResult ? ( 
-                <div>  score : </div>
+                <div>  score : {Score} </div>
             ) : (
                 <>
                     <div className="question-count">
