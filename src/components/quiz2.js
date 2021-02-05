@@ -1,8 +1,8 @@
 function quiz2(){
   return(
-    <div>
+    <section>
       <h1>quiz2</h1>
-    </div>
+    </section>
   )
 }
 

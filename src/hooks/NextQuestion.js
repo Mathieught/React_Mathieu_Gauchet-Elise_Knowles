@@ -31,35 +31,35 @@ function NextQuestion() {
 
     const AnswersOptions = () => {
         return ( 
-            <div> 
+            <div class="answerContainer"> 
                 {data.questions[currentQuestion].answersOptions.map((answersOptions) => 
-                    <button onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
+                    <button class="answerBtn" onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
                 )}
             </div>
             )
     }
 
     return(
-        <div>
+        <section>
+            {/* <h1 class="title">quiz1</h1> */}
             { SeeResult ? ( 
                 <div>  score : {Score} </div>
             ) : (
                 <>
-                    <div className="question-count">
-                        <span>Question {currentQuestion + 1} / {data.questions.length} </span>
-                    </div>
-
+                <div class="topContainer">
                     <div className="question-content">
                         <p> Question : { data.questions[currentQuestion].question} </p>
                     </div>
-
-                    <div className="answers-section">
-                        <AnswersOptions/>
+                    <div className="question-count">
+                        <span>{currentQuestion + 1}/{data.questions.length}</span>
                     </div>
+                </div>
+                <div className="answers-section">
+                    <AnswersOptions/>
+                </div>
                 </>
             ) }
-
-        </div>
+        </section>
     );
 
 }
