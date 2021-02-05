@@ -6,12 +6,13 @@ function NextQuestion() {
     const [ currentQuestion, setCurrentQuestion ] = useState(0);
 
     // arret a la fin du quiz 
-    const setNextQuestion = () => {
-        const nextQuestion = currentQuestion + 1;
-        if( nextQuestion < data.questions.lenght ){
-            setCurrentQuestion(nextQuestion);
+    const handleNextQuestion = () => {
+        const next = currentQuestion + 1;
+
+        if( next < data.questions.length ){
+            setCurrentQuestion(next);
         } else {
-            console.log("fin du quiz")
+            alert("fin du quiz")
             // setScore(true)
         }
     }
@@ -20,7 +21,8 @@ function NextQuestion() {
         return ( 
             <div> 
                 {data.questions[currentQuestion].answersOptions.map((answersOptions) => 
-                    <button onClick={() => setCurrentQuestion(currentQuestion + 1)} > {answersOptions.answer} </button>
+                     <button onClick={handleNextQuestion} > {answersOptions.answer} </button>
+                    // <button onClick={() => setCurrentQuestion(currentQuestion + 1)} > {answersOptions.answer} </button>
                 )} 
             </div>
             )
