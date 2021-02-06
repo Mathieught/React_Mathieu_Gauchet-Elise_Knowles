@@ -1,8 +1,10 @@
+import NextQuestion from '../hooks/NextQuestion'
+
 function quiz2(){
   return(
-    <div>
-      <h1>quiz2</h1>
-    </div>
+    <section>
+      <NextQuestion/>
+    </section>
   )
 }
 
