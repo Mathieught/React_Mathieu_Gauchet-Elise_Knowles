@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "question":"capitale du Japon ?",
+      "answer" : ["Paris" , "Tokyo" ,"Londres", "New York"],
+      "isCorrect": "Tokyo"
+    },
+    {
+      "id": "2",
+      "question":"capitale du France ?",
+      "answer" : ["Paris" , "Tokyo" ,"Londres", "New York"],
+      "isCorrect": "Paris"
+    }, 
+    {
+    "id": "3",
+    "question":"capitale du UK ?",
+    "answer" : ["Paris" , "Tokyo" ,"Londres", "New York"],
+    "isCorrect": "Londres"
+    }
+]
