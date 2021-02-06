@@ -40,10 +40,10 @@ function NextQuestion() {
     }
 
     return(
-        <section>
+        <section class="container">
             {/* <h1 class="title">quiz1</h1> */}
             { SeeResult ? ( 
-                <div>  score : {Score} </div>
+                <div class="score">  score : {Score} </div>
             ) : (
                 <>
                 <div class="topContainer">

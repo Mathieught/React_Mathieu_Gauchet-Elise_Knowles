@@ -1,7 +1,9 @@
+import NextQuestion from '../hooks/NextQuestion'
+
 function quiz2(){
   return(
     <section>
-      <h1>quiz2</h1>
+      <NextQuestion/>
     </section>
   )
 }
