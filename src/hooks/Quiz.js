@@ -36,9 +36,9 @@ function Quiz(props) {
     // on récupère les réponses de la question correspondante et au click on récupère la value de la réponse choisi 
     const AnswersOptions = () => {
         return ( 
-            <div class="answerContainer"> 
+            <div className="answerContainer"> 
                 {infoQuestion[currentQuestion].answersOptions.map((answersOptions) => 
-                    <button class="answerBtn" onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
+                    <button className="answerBtn" onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
                 )}
             </div>
             )
@@ -46,13 +46,13 @@ function Quiz(props) {
 
     // on affiche le quiz
     return(
-        <section class="container">
+        <section className="container">
 
             { SeeResult ? ( 
-                <div class="score">  Score : {Score} / 10 </div>
+                <div className="score">  Score : {Score} / 10 </div>
             ) : (
                 <>
-                <div class="topContainer">
+                <div className="topContainer">
                     <div className="question-content">
                         <p> Question : { infoQuestion[currentQuestion].question} </p>
                     </div>

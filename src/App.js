@@ -6,6 +6,7 @@ import quiz2 from './components/Quiz2'
 import quiz3 from './components/Quiz3'
 import quiz4 from './components/Quiz4'
 import NotFound from './components/notFound'
+
 import {BrowserRouter as Router, Route ,Switch} from 'react-router-dom'
 
 function App() {
