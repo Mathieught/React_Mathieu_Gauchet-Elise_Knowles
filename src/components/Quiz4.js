@@ -4,7 +4,7 @@ import data from '../data/quiz.json'
 function Quiz4(){
   return(
     <div>
-        <p> Quiz n°4 : Musique </p>
+        <h1 className="title"> Quiz n°4 : Musique </h1>
         <Quiz infoQuestion={data.questions4}/>
     </div>
   )

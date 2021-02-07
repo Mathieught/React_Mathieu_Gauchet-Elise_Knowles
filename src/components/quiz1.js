@@ -5,7 +5,7 @@ function Quiz1(){
 
   return(
     <div>
-      <p> Quiz n°1 : Géographie - Les capitales</p>
+      <h1 className="title"> Quiz n°1 : Géographie - Les capitales</h1>
       <Quiz infoQuestion={data.questions1}/>
     </div>
   )

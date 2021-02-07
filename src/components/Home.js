@@ -1,12 +1,10 @@
-import React from 'react'
+import Meteo from './Meteo'
 
 function Home(){
   return(
-      <section class="container">
-        <h1 class="title">Présentation</h1>
-        <p>l'application react comporte 4 quizz divers et</p>
-      </section>
+        <Meteo />
   )
 }
 
 export default Home
+
