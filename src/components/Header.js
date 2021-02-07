@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import DarkToggle from '../hooks/Theme'
 
 function Header(){
   return(
@@ -21,6 +22,7 @@ function Header(){
           <li>Quiz n°4</li>
         </Link>
       </ul>
+      <DarkToggle/>
     </header>
   )
 }
