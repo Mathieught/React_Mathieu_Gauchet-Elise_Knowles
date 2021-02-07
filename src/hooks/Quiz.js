@@ -37,8 +37,8 @@ function Quiz(props) {
     const AnswersOptions = () => {
         return ( 
             <div className="answerContainer"> 
-                {infoQuestion[currentQuestion].answersOptions.map((answersOptions) => 
-                    <button className="answerBtn" onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
+                {infoQuestion[currentQuestion].answersOptions.map((answersOptions, index) => 
+                    <button className="answerBtn" onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} key={index} > {answersOptions.answer} </button>
                 )}
             </div>
             )

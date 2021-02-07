@@ -25,6 +25,4 @@ const DarkToggle = () => {
     );
 };
 
-
-
 export default DarkToggle;
