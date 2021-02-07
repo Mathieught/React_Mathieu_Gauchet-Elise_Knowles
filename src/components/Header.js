@@ -8,11 +8,17 @@ function Header(){
         <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="/quiz1">
-          <li>Quiz 1</li>
+        <Link to="/Quiz1">
+          <li>Quiz n°1</li>
         </Link>
-        <Link to="/quiz2">
-          <li>Quiz 2</li>
+        <Link to="/Quiz2">
+          <li>Quiz n°2</li>
+        </Link>
+        <Link to="/Quiz3">
+          <li>Quiz n°3</li>
+        </Link>
+        <Link to="/Quiz4">
+          <li>Quiz n°4</li>
         </Link>
       </ul>
     </header>

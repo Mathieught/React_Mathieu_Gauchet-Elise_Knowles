@@ -1,11 +1,13 @@
-import NextQuestion from '../hooks/NextQuestion'
+import Quiz from '../hooks/Quiz'
+import data from '../data/quiz.json'
 
-function quiz2(){
+function Quiz2(){
   return(
-    <section>
-      <NextQuestion/>
-    </section>
+    <div>
+      <p> Quiz n°2 : RGPD - maîtrisez-vous les grandes règles sur la protection de vos données ? </p>
+      <Quiz infoQuestion={data.questions2}/>
+    </div>
   )
 }
 
-export default quiz2
+export default Quiz2;
