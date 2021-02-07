@@ -1,27 +1,31 @@
-import React, {useState} from 'react';
-import data from '../data/quiz1.json'
+import {useState} from 'react';
 
-function NextQuestion() {
+function Quiz(props) {
 
+    // pour récupérer les data du quiz : questions et réponses
+    const {infoQuestion} = props;
+
+    // UseSate
     const [ currentQuestion, setCurrentQuestion ] = useState(0);
     const [ SeeResult, setSeeResult ] = useState(false);
     const [ Score, setScore ] = useState(0);
 
-    // arret a la fin du quiz 
     const handleQuestion = (e) => {
 
+        // valeur du bouton cliqué lors du choix de la réponse
         const answerChoice = e.target.value
-        const isCorrect = data.questions[currentQuestion].isCorrect
+        // bonne réponse à la question
+        const isCorrect = infoQuestion[currentQuestion].isCorrect
 
+        // Vérifie si la réponse choisi est correct, si oui on incrémente de 1 le score
         if( isCorrect === answerChoice ){
-            console.log("Bonne réponse")
+            //console.log("Bonne réponse")
             setScore(Score + 1)
-        } else {
-            console.log("Mauvaise réponse")
         }
 
+        // on va a la questions suivante, si c'est la dernière question on affiche le résultat
         const next = currentQuestion + 1;
-        if( next < data.questions.length ){
+        if( next < infoQuestion.length ){
             setCurrentQuestion(next);
         } else {
             // alert("fin du quiz")
@@ -29,29 +33,31 @@ function NextQuestion() {
         }
     }
 
+    // on récupère les réponses de la question correspondante et au click on récupère la value de la réponse choisi 
     const AnswersOptions = () => {
         return ( 
             <div class="answerContainer"> 
-                {data.questions[currentQuestion].answersOptions.map((answersOptions) => 
+                {infoQuestion[currentQuestion].answersOptions.map((answersOptions) => 
                     <button class="answerBtn" onClick={(e) => handleQuestion(e, "value")} value={answersOptions.answer} > {answersOptions.answer} </button>
                 )}
             </div>
             )
     }
 
+    // on affiche le quiz
     return(
         <section class="container">
-            {/* <h1 class="title">quiz1</h1> */}
+
             { SeeResult ? ( 
-                <div class="score">  score : {Score} </div>
+                <div class="score">  Score : {Score} / 10 </div>
             ) : (
                 <>
                 <div class="topContainer">
                     <div className="question-content">
-                        <p> Question : { data.questions[currentQuestion].question} </p>
+                        <p> Question : { infoQuestion[currentQuestion].question} </p>
                     </div>
                     <div className="question-count">
-                        <span>{currentQuestion + 1}/{data.questions.length}</span>
+                        <span>{currentQuestion + 1}/{infoQuestion.length}</span>
                     </div>
                 </div>
                 <div className="answers-section">
@@ -59,10 +65,11 @@ function NextQuestion() {
                 </div>
                 </>
             ) }
+
         </section>
     );
 
 }
 
-export default NextQuestion;
+export default Quiz;
 
