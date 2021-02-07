@@ -5,7 +5,7 @@ function Quiz3(){
   return(
       <div>
           <p> Quiz n°3 - Culture Générale</p>
-          <Quiz infoQuestion={data.questions2}/>
+          <Quiz infoQuestion={data.questions3}/>
       </div>
   )
 }
