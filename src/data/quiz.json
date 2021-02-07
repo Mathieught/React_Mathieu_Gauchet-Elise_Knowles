@@ -1,0 +1,413 @@
+{
+    "questions1": [
+        {
+            "question":"Quel est la capitale du Japon ?",
+            "answersOptions": [
+                { "answer" : "Kyoto" },
+                { "answer" : "Tokyo"},
+                { "answer" : "Osaka"},
+                { "answer" : "Sendai"}
+            ],
+            "isCorrect": "Tokyo"
+        },
+        {
+            "question":"Quel est la capitale de France ?",
+            "answersOptions": [
+                { "answer" : "Marseille" },
+                { "answer" : "Bordeaux"},
+                { "answer" : "Lille"},
+                { "answer" : "Paris"}
+            ],
+            "isCorrect": "Paris"
+        },
+        {
+            "question":"Quel est la capitale du Royaume Uni ?",
+            "answersOptions": [
+                { "answer" : "Cambridge" },
+                { "answer" : "Oxford"},
+                { "answer" : "Londres"},
+                { "answer" : "Brighton"}
+            ],
+            "isCorrect": "Londres"
+        },
+        {
+            "question":"Quel est la capitale de l'Australie ?",
+            "answersOptions": [
+                { "answer" : "Canberra" },
+                { "answer" : "Sydney"},
+                { "answer" : "Melbourne"},
+                { "answer" : "Brisbane"}
+            ],
+            "isCorrect": "Canberra"
+        },
+        {
+            "question":"Quel est la capitale de la Nouvelle-Zélande ?",
+            "answersOptions": [
+                { "answer" : "Auckland" },
+                { "answer" : "Hamilton"},
+                { "answer" : "Christchurch"},
+                { "answer" : "Wellington"}
+            ],
+            "isCorrect": "Wellington"
+        },
+        {
+            "question":"Quel est la capitale du Brésil ?",
+            "answersOptions": [
+                { "answer" : "Rio de Janeiro" },
+                { "answer" : "Brasilia"},
+                { "answer" : "Sao Paulo"},
+                { "answer" : "Salvador"}
+            ],
+            "isCorrect": "Brasilia"
+        },
+        {
+            "question":"Quel est la capitale de la Birmanie ?",
+            "answersOptions": [
+                { "answer" : "Naypyidaw" },
+                { "answer" : "Mandalay"},
+                { "answer" : "Rangoun"},
+                { "answer" : "Prome"}
+            ],
+            "isCorrect": "Naypyidaw"
+        },
+        {
+            "question":"Quel est la capitale de la Turquie ?",
+            "answersOptions": [
+                { "answer" : "Istanbul" },
+                { "answer" : "Ankara"},
+                { "answer" : "Izmir"},
+                { "answer" : "Bursa"}
+            ],
+            "isCorrect": "Ankara"
+        },
+        {
+            "question":"Quel est la capitale de l'Inde ?",
+            "answersOptions": [
+                { "answer" : "New Dehli" },
+                { "answer" : "Mumbai"},
+                { "answer" : "Bombay"},
+                { "answer" : "Calcutta"}
+            ],
+            "isCorrect": "New Dehli"
+        },
+        {
+            "question":"Quel est la capitale du Nigéria ?",
+            "answersOptions": [
+                { "answer" : "Port Harcourt" },
+                { "answer" : "Ibadan"},
+                { "answer" : "Abuja"},
+                { "answer" : "Lagos"}
+            ],
+            "isCorrect": "Abuja"
+        }
+    ],
+
+    "questions2": [
+        {
+            "question":"Que signifie l’acronyme RGPD ?",
+            "answersOptions": [
+                { "answer" : "Règlement général sur la promotion des données" },
+                { "answer" : "Règlement général sur le partage des données"},
+                { "answer" : "Règlement général sur la protection des données"},
+                { "answer" : "Règlement général sur la préservation des données"}
+            ],
+            "isCorrect": "Règlement général sur la protection des données"
+        },
+        {
+            "question":"Où s’applique le RGPD ?",
+            "answersOptions": [
+                { "answer" : "En dehors de l’Union européenne" },
+                { "answer" : "Dans l’Union européenne"},
+                { "answer" : "Aux États-Unis"},
+                { "answer" : "Partout"}
+            ],
+            "isCorrect": "Partout"
+        },
+        {
+            "question":"Quel est l’objectif du RGPD ?",
+            "answersOptions": [
+                { "answer" : "De vous rendre anonyme sur le web" },
+                { "answer" : "D’uniformiser la réglementation dans l’Union européenne"},
+                { "answer" : "De contrer le piratage"},
+                { "answer" : "D’empêcher l’utilisation des données"}
+            ],
+            "isCorrect": "D’uniformiser la réglementation dans l’Union européenne"
+        },
+        {
+            "question":"Quelle est la date de mise en application du RGPD ?",
+            "answersOptions": [
+                { "answer" : "Le 24 mai 2016" },
+                { "answer" : "Le 21 décembre 2012"},
+                { "answer" : "Le 25 mai 2018"},
+                { "answer" : "Le 15 décembre 2015"}
+            ],
+            "isCorrect": "Le 25 mai 2018"
+        },
+        {
+            "question":"En France, la majorité numérique survient à partir de quel âge ?",
+            "answersOptions": [
+                { "answer" : "13 ans" },
+                { "answer" : "15 ans"},
+                { "answer" : "16 ans"},
+                { "answer" : "18 ans"}
+            ],
+            "isCorrect": "15 ans"
+        },
+        {
+            "question":"Que permet la portabilité des données ?",
+            "answersOptions": [
+                { "answer" : "De les récupérer pour les transférer sur un autre service" },
+                { "answer" : "De les rendre compatible sur un téléphone portable"},
+                { "answer" : "De les déplacer à l’intérieur d’un service"},
+                { "answer" : "De les alléger pour pouvoir les porter à bout de bras"}
+            ],
+            "isCorrect": "De les récupérer pour les transférer sur un autre service"
+        },
+        {
+            "question":"De combien de temps les entreprises disposent-elles pour signaler une fuite de données ?",
+            "answersOptions": [
+                { "answer" : "12 heures" },
+                { "answer" : "24 heures"},
+                { "answer" : "48 heures"},
+                { "answer" : "72 heures"}
+            ],
+            "isCorrect": "72 heures"
+        },
+        {
+            "question":"Qu’est-ce que le « privacy by design » ?",
+            "answersOptions": [
+                { "answer" : "C'est l'obligation de protéger les données des designers" },
+                { "answer" : "C'est l'obligation de faire de l'esthétique sur la vie privée"},
+                { "answer" : "C’est l’obligation de veiller, dès la conception de sa technologie, à la protection des données"},
+                { "answer" : "C’est l’obligation pour les sites web de veiller à la protection des données personnelles de chaque nouvelle connexion"}
+            ],
+            "isCorrect": "C’est l’obligation de veiller, dès la conception de sa technologie, à la protection des données"
+        },
+        {
+            "question":"Quel est le délai que le RGPD donne pour répondre à une demande de portabilité des données ?",
+            "answersOptions": [
+                { "answer" : "3 jours" },
+                { "answer" : "Une semaine"},
+                { "answer" : "Un mois"},
+                { "answer" : "24 heures"}
+            ],
+            "isCorrect": "Un mois"
+        },
+        {
+            "question":"Quel est le montant maximal des amendes administratives qui peuvent être prononcées contre un géant du net ?",
+            "answersOptions": [
+                { "answer" : "2 % du chiffre d’affaires mondial"},
+                { "answer" : "4 % du chiffre d’affaires mondial"},
+                { "answer" : "6 % du chiffre d’affaires mondial"},
+                { "answer" : "8 % du chiffre d’affaires mondial"}
+            ],
+            "isCorrect": "4 % du chiffre d’affaires mondial"
+        }
+    ],
+
+    "questions3": [
+        {
+            "question":"Quel dictateur dirigea l’URSS du milieu des années 1920 à 1953 ?",
+            "answersOptions": [
+                { "answer" : "Staline"},
+                { "answer" : "Lénine"},
+                { "answer" : "Trotski"},
+                { "answer" : "Molotov"}
+            ],
+            "isCorrect": "Staline"
+        },
+        {
+            "question":"Dans quel pays peut-on trouver la Catalogne ?",
+            "answersOptions": [
+                { "answer" : "Le Portugal" },
+                { "answer" : "L'Italie"},
+                { "answer" : "L'Espagne"},
+                { "answer" : "La France"}
+            ],
+            "isCorrect": "L'Espagne"
+        },
+        {
+            "question":"Qui a dit : « Le sort en est jeté » (Alea jacta est) ?",
+            "answersOptions": [
+                { "answer" : "César" },
+                { "answer" : "Attila"},
+                { "answer" : "Louis XIV"},
+                { "answer" : "Napoléon"}
+            ],
+            "isCorrect": "César"
+        },
+        {
+            "question":"Quel pays a remporté la coupe du monde de football en 2018 ?",
+            "answersOptions": [
+                { "answer" : "L'Allemagne" },
+                { "answer" : "La France"},
+                { "answer" : "L'Italie"},
+                { "answer" : "Le Brésil"}
+            ],
+            "isCorrect": "La France"
+        },
+        {
+            "question":"À qui doit-on la chanson « I Shot the Sheriff » ?",
+            "answersOptions": [
+                { "answer" : "Jim Morrison" },
+                { "answer" : "Eric Clapton"},
+                { "answer" : "UB40"},
+                { "answer" : "Bob Marley"}
+            ],
+            "isCorrect": "Bob Marley"
+        },
+        {
+            "question":"Dans quelle ville italienne l’action de la pièce de Shakespeare « Roméo et Juliette » se situe-t-elle ?",
+            "answersOptions": [
+                { "answer" : "Vérone" },
+                { "answer" : "Rome"},
+                { "answer" : "Venise"},
+                { "answer" : "Milan"}
+            ],
+            "isCorrect": "Vérone"
+        },
+        {
+            "question":"Qui était le dieu de la guerre dans la mythologie grecque ?",
+            "answersOptions": [
+                { "answer" : "Hermès" },
+                { "answer" : "Arès"},
+                { "answer" : "Apollon"},
+                { "answer" : "Hadès"}
+            ],
+            "isCorrect": "Arès"
+        },
+        {
+            "question":"Quel roi de France proclama l’Édit de Nantes ?",
+            "answersOptions": [
+                { "answer" : "Louis XIV" },
+                { "answer" : "Francois Ier"},
+                { "answer" : "Henri IV"},
+                { "answer" : "Louis XIII"}
+            ],
+            "isCorrect": "Henri IV"
+        },
+        {
+            "question":"À quel écrivain attribue-t-on la rédaction de l’Illiade et l’Odyssée ?",
+            "answersOptions": [
+                { "answer" : "Virgile" },
+                { "answer" : "Sophocle"},
+                { "answer" : "Euripide"},
+                { "answer" : "Homère"}
+            ],
+            "isCorrect": "Homère"
+        },
+        {
+            "question":"Quel est l’album le plus vendu de l’histoire ?",
+            "answersOptions": [
+                { "answer" : "Thriller - Michael Jackson" },
+                { "answer" : "Black in Black - AC/DC"},
+                { "answer" : "The dark side of the Moon - Pink Floyd"},
+                { "answer" : "Their Greatest Hits - Eagles"}
+            ],
+            "isCorrect": "Thriller - Michael Jackson"
+        }
+    ],
+
+    "questions4": [
+        {
+            "question":"Quel est le compositeur de « La Flûte enchantée » ?",
+            "answersOptions": [
+                { "answer" : "Beethoven" },
+                { "answer" : "Verdi"},
+                { "answer" : "Vivaldi"},
+                { "answer" : "Mozart"}
+            ],
+            "isCorrect": "Mozart"
+        },
+        {
+            "question":"Le plus vieil instrument connu à ce jour est une flûte vieille de :",
+            "answersOptions": [
+                { "answer" : "3 500 ans " },
+                { "answer" : "35 000 ans"},
+                { "answer" : "130 000 ans"},
+                { "answer" : "300 000 ans"}
+            ],
+            "isCorrect": "35 000 ans"
+        },
+        {
+            "question":"À qui doit-on le Lac des cygnes ?",
+            "answersOptions": [
+                { "answer" : "Beethoven" },
+                { "answer" : "Rossini"},
+                { "answer" : "Tchaïkovski"},
+                { "answer" : "Debussy"}
+            ],
+            "isCorrect": "Tchaïkovski"
+        },
+        {
+            "question":"Quel instrument est fréquemment joué au Moyen Âge ?",
+            "answersOptions": [
+                { "answer" : "le luth" },
+                { "answer" : "la batterie"},
+                { "answer" : "la xylophone"},
+                { "answer" : "la flute"}
+            ],
+            "isCorrect": "le luth"
+        },
+        {
+            "question":"De quel pays, les Beatles sont-ils originaires ?",
+            "answersOptions": [
+                { "answer" : "Angleterre" },
+                { "answer" : "États-Unis"},
+                { "answer" : "Allemagne"},
+                { "answer" : "Irlande"}
+            ],
+            "isCorrect": "Angleterre"
+        },
+        {
+            "question":"Quel groupe a interprété « Am, Do i wanna know » ?",
+            "answersOptions": [
+                { "answer" : "The Offspring" },
+                { "answer" : "Maroon 5"},
+                { "answer" : "Oasis"},
+                { "answer" : "Arctic Monkeys"}
+            ],
+            "isCorrect": "Arctic Monkeys"
+        },
+        {
+            "question":"Quel groupe a interprété la chanson « Stayin’ Alive » ?",
+            "answersOptions": [
+                { "answer" : "Pixies" },
+                { "answer" : "Beach Boys"},
+                { "answer" : "Bee Gees"},
+                { "answer" : "Village People"}
+            ],
+            "isCorrect": "Bee Gees"
+        },
+        {
+            "question":"Qui était le chanteur mythique du groupe Nirvana ?",
+            "answersOptions": [
+                { "answer" : "Axl Rose" },
+                { "answer" : "Jimmy Page"},
+                { "answer" : "Ian Curtis"},
+                { "answer" : "Kurt Cobain"}
+            ],
+            "isCorrect": "Kurt Cobain"
+        },
+        {
+            "question":"Quel groupe a interprété la chanson « I Wanna Hold Your Hand » ?",
+            "answersOptions": [
+                { "answer" : "The Beatles" },
+                { "answer" : "The Rolling Stone"},
+                { "answer" : "The Who"},
+                { "answer" : "Sex istols"}
+            ],
+            "isCorrect": "The Beatles"
+        },
+        {
+            "question":"Qui est l’interprète du tube « I believe i can fly » ?",
+            "answersOptions": [
+                { "answer" : "R Kelly" },
+                { "answer" : "Ben Harper"},
+                { "answer" : "Chris Brown"},
+                { "answer" : "Jamiroquai"}
+            ],
+            "isCorrect": "R Kelly"
+        }
+    ]
+}
