@@ -1,5 +1,4 @@
 import Quiz from '../hooks/Quiz'
-//import data from '../data/quiz1.json'
 import data from '../data/quiz.json'
 
 function Quiz1(){
