@@ -4,7 +4,7 @@ import data from '../data/quiz.json'
 function Quiz2(){
   return(
     <div>
-      <p> Quiz n°2 : RGPD - maîtrisez-vous les grandes règles sur la protection de vos données ? </p>
+      <h1 className="title"> Quiz n°2 : RGPD - maîtrisez-vous les grandes règles sur la protection de vos données ? </h1>
       <Quiz infoQuestion={data.questions2}/>
     </div>
   )

@@ -1,15 +1,17 @@
 section.container
   height: 95vh
 
+section.container.cut
+  display: grid
+  grid-template-columns: 1fr 1fr
+
 section.container.notFound
-  display: flex
-  justify-content: center
-  align-items: center
+  @include centerElem
 
 section.container .score
   font-size: 80px
   font-weight: bold
-  color: $green
+  color: $purple
   height: 100%
   display: flex
   justify-content: center
